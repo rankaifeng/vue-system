@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "@vue/composition-api": "^1.0.0-beta.10",
+    "axios": "^0.20.0",
     "core-js": "^3.6.5",
+    "dingtalk-jsapi": "^2.12.2",
+    "query-string": "^6.13.1",
     "vue": "^3.0.0-0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
