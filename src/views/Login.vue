@@ -1,12 +1,16 @@
 <template>
-  <div @click="loginAjax">8888</div>
+  <div @click="loginAjax">
+    <el-button type="primary">主要按钮</el-button>
+  </div>
 </template>
 
 <script>
 import { userLogin } from "../api/allApis";
 import dd from "dingtalk-jsapi";
+
 export default {
   name: "login",
+
   setup() {
     /**
      * 登录
@@ -39,5 +43,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

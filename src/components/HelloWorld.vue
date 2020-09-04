@@ -9,8 +9,8 @@
 import { ref, computed, reactive } from "vue";
 export default {
   name: "HelloWorld",
-  props: { 
-        msg: String
+  props: {
+    msg: String
   },
   setup(props) {
     const te = ref("ss");
@@ -98,7 +98,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style  lang="scss" scoped>
+<style lang="scss" scoped>
 .hello {
   background-color: red;
   & button {
